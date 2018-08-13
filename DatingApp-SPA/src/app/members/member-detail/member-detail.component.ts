@@ -7,7 +7,7 @@ import {
   NgxGalleryOptions,
   NgxGalleryImage,
   NgxGalleryAnimation
-} from '../../../../node_modules/ngx-gallery';
+} from 'ngx-gallery';
 
 @Component({
   selector: 'app-member-detail',
