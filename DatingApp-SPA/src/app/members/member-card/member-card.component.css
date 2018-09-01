@@ -8,6 +8,7 @@
     transform: scale(1.0, 1.0);
     transition-duration: 500ms;
     transition-timing-function: ease-out;
+    clip: rect(0px,90px,200px,0px);
 }
 
 .card-img-wrapper {
@@ -32,4 +33,10 @@
 
 .animate {
     transition: all 0.3s ease-in-out;
+}
+
+.card-img-top {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
